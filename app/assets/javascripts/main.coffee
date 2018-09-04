@@ -20,9 +20,10 @@ $ ->
 
   search_field.on 'keyup', (e) ->
     clearTimeout(timer)
-    timer = setTimeout(
-      (-> search_form.submit())
-      , 1200)
+    unless e.which == 13
+      timer = setTimeout(
+        (-> search_form.submit())
+        , 1200)
 
   search_form.on 'submit', (e) ->
     e.preventDefault()
