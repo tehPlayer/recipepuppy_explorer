@@ -1,0 +1,137 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.recipepuppy.com/api/?p=1&q=pancakes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Tue, 04 Sep 2018 20:55:28 GMT
+      server:
+      - Apache/2.2.9 (Ubuntu) PHP/5.2.6-2ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.9
+        OpenSSL/0.9.8g mod_wsgi/4.5.7 Python/2.6
+      x-powered-by:
+      - PHP/5.2.6-2ubuntu4.6
+      set-cookie:
+      - kohanasession=548aa775d9275c6666ee88e9c33bf292; expires=Tue, 04 Sep 2018 22:55:28
+        GMT; path=/, kohanasession=548aa775d9275c6666ee88e9c33bf292; expires=Tue,
+        04-Sep-2018 22:55:28 GMT; path=/, kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiI1NDhhYTc3NWQ5Mjc1YzY2NjZlZTg4ZTljMzNiZjI5MiI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6MTQ6IkZhcmFkYXkgdjAuOS4yIjtpcF9hZGRyZXNzfHM6MTI6IjE4OC4xMjEuMC4xMSI7bGFzdF9hY3Rpdml0eXxpOjE1MzYwOTQ1Mjg7;
+        expires=Tue, 04-Sep-2018 22:55:28 GMT; path=/
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      pragma:
+      - no-cache
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '844'
+      content-type:
+      - text/javascript
+    body:
+      encoding: ASCII-8BIT
+      string: '{"title":"Recipe Puppy","version":0.1,"href":"http:\/\/www.recipepuppy.com\/","results":[{"title":"Banana
+        Bread Pancakes","href":"http:\/\/www.recipezaar.com\/Banana-Bread-Pancakes-205477","ingredients":"banana,
+        banana, pancake mix, sugar, cinnamon, pecan, syrup, water","thumbnail":"http:\/\/img.recipepuppy.com\/133236.jpg"},{"title":"Banana
+        Pecan Pancakes Served With Berries","href":"http:\/\/www.recipezaar.com\/Banana-Pecan-Pancakes-Served-With-Berries-119418","ingredients":"buttermilk,
+        flour, baking powder, baking soda, banana, brown sugar, vegetable oil, nonstick
+        cooking spray, eggs, cinnamon, orange zest, pecan, raspberries, salt, vanilla
+        extract","thumbnail":"http:\/\/img.recipepuppy.com\/136819.jpg"},{"title":"Cinnamon
+        Apple Pancakes","href":"http:\/\/www.recipezaar.com\/Cinnamon-Apple-Pancakes-148295","ingredients":"allspice,
+        apple, baking powder, cinnamon, eggs, flour, lemon zest, nutmeg, salt, skim
+        milk, sugar, vanilla extract","thumbnail":""},{"title":"Citrus Pancakes","href":"http:\/\/www.recipezaar.com\/Citrus-Pancakes-280096","ingredients":"flour,
+        baking powder, baking soda, eggs, honey, milk, orange zest, orange, yogurt,
+        salt, sugar, butter, vanilla extract","thumbnail":""},{"title":"Divine Wind
+        Pancakes","href":"http:\/\/www.recipezaar.com\/Divine-Wind-Pancakes-128607","ingredients":"flour,
+        baking soda, banana, flour, buttermilk, eggs, blueberries, salt, walnut","thumbnail":""},{"title":"World''s
+        Best Vegan Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Worlds-Best-Vegan-Pancakes\/Detail.aspx","ingredients":"custard
+        powder, flour, soy milk, sugar","thumbnail":"http:\/\/img.recipepuppy.com\/16900.jpg"},{"title":"Buttermilk
+        Pancakes for One","href":"http:\/\/www.recipezaar.com\/Buttermilk-Pancakes-For-One-88503","ingredients":"baking
+        powder, baking soda, buttermilk, eggs, flour, salt, vegetable oil, wheat germ","thumbnail":"http:\/\/img.recipepuppy.com\/37915.jpg"},{"title":"100%
+        Whole Wheat Low Fat Pancakes","href":"http:\/\/www.recipezaar.com\/100-Whole-Wheat-Low-Fat-Pancakes-151328","ingredients":"baking
+        powder, baking soda, vegetable oil, eggs, milk, sugar, vanilla extract, flour","thumbnail":"http:\/\/img.recipepuppy.com\/45639.jpg"},{"title":"Banana
+        and Pecan Pancakes With Maple Butter","href":"http:\/\/www.recipezaar.com\/Banana-and-Pecan-Pancakes-With-Maple-Butter-296567","ingredients":"flour,
+        baking powder, baking soda, banana, buttermilk, pecan, powdered sugar, eggs,
+        pecan, vanilla extract, salt, sugar, butter","thumbnail":""},{"title":"Becky''s
+        Buckwheat Pancakes","href":"http:\/\/www.recipezaar.com\/Beckys-Buckwheat-Pancakes-280234","ingredients":"baking
+        powder, baking soda, brown sugar, flour, buttermilk, flour, cream of wheat,
+        egg whites, egg yolks, salt, sugar, vegetable oil, flour","thumbnail":""}]}'
+    http_version: 
+  recorded_at: Tue, 04 Sep 2018 20:55:28 GMT
+- request:
+    method: get
+    uri: http://www.recipepuppy.com/api/?p=2&q=pancakes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Tue, 04 Sep 2018 20:55:29 GMT
+      server:
+      - Apache/2.2.9 (Ubuntu) PHP/5.2.6-2ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.9
+        OpenSSL/0.9.8g mod_wsgi/4.5.7 Python/2.6
+      x-powered-by:
+      - PHP/5.2.6-2ubuntu4.6
+      set-cookie:
+      - kohanasession=1ab549ae0078bd147d499fa1c8302c11; expires=Tue, 04 Sep 2018 22:55:29
+        GMT; path=/, kohanasession=1ab549ae0078bd147d499fa1c8302c11; expires=Tue,
+        04-Sep-2018 22:55:29 GMT; path=/, kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiIxYWI1NDlhZTAwNzhiZDE0N2Q0OTlmYTFjODMwMmMxMSI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6MTQ6IkZhcmFkYXkgdjAuOS4yIjtpcF9hZGRyZXNzfHM6MTI6IjE4OC4xMjEuMC4xMSI7bGFzdF9hY3Rpdml0eXxpOjE1MzYwOTQ1Mjk7;
+        expires=Tue, 04-Sep-2018 22:55:29 GMT; path=/
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      pragma:
+      - no-cache
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '822'
+      content-type:
+      - text/javascript
+    body:
+      encoding: ASCII-8BIT
+      string: '{"title":"Recipe Puppy","version":0.1,"href":"http:\/\/www.recipepuppy.com\/","results":[{"title":"Blueberry
+        Buttermilk Oatmeal Pancakes","href":"http:\/\/www.recipezaar.com\/Blueberry-Buttermilk-Oatmeal-Pancakes-170850","ingredients":"baking
+        soda, blueberries, butter, buttermilk, eggs, flour, oatmeal, salt, sugar","thumbnail":"http:\/\/img.recipepuppy.com\/178859.jpg"},{"title":"Blueberry
+        Pancakes Using Cake Flour","href":"http:\/\/www.recipezaar.com\/Blueberry-Pancakes-Using-Cake-Flour-68112","ingredients":"milk,
+        flour, baking powder, blueberries, flour, flour, eggs, jam, vegetable oil,
+        salt, sugar, butter","thumbnail":""},{"title":"Buckwheat Pancakes (South Beach
+        - Phase 2)","href":"http:\/\/www.recipezaar.com\/Buckwheat-Pancakes-South-Beach-Phase-2-114525","ingredients":"baking
+        powder, flour, eggs, applesauce, vanilla extract, water, flour","thumbnail":""},{"title":"Pumpkin
+        Meets Pancakes Recipe","href":"http:\/\/www.grouprecipes.com\/24308\/pumpkin-meets-pancakes.html","ingredients":"pumpkin
+        puree, ginger, cocoa powder, cinnamon, vanilla extract, vegetable oil","thumbnail":"http:\/\/img.recipepuppy.com\/285466.jpg"},{"title":"Blueberry-ricotta
+        Pancakes Recipe","href":"http:\/\/www.grouprecipes.com\/74543\/blueberry-ricotta-pancakes.html","ingredients":"blueberries,
+        baking powder, baking soda, vegetable oil, eggs, egg whites, lemon juice,
+        lemon zest, buttermilk, nutmeg, ricotta cheese, flour, sugar, flour","thumbnail":"http:\/\/img.recipepuppy.com\/309007.jpg"},{"title":"Club
+        Soda Pancakes","href":"http:\/\/www.recipezaar.com\/Club-Soda-Pancakes-87183","ingredients":"biscuit,
+        club soda, eggs, vegetable oil","thumbnail":""},{"title":"Cracker Barrel Buttermilk
+        Pancakes","href":"http:\/\/www.recipezaar.com\/Cracker-Barrel-Buttermilk-Pancakes-327922","ingredients":"flour,
+        baking soda, butter, buttermilk, eggs, maple syrup, vegetable oil, salt, sugar","thumbnail":""},{"title":"Low
+        Fat Whole Wheat Banana Pancakes","href":"http:\/\/www.recipezaar.com\/Low-Fat-Whole-Wheat-Banana-Pancakes-123243","ingredients":"baking
+        powder, banana, cinnamon, cocoa powder, egg whites, salt, skim milk, sugar,
+        flour, vanilla extract, water, flour","thumbnail":"http:\/\/img.recipepuppy.com\/350310.jpg"},{"title":"Ricotta
+        Cheese Pancakes Recipe","href":"http:\/\/www.grouprecipes.com\/1804\/ricotta-cheese-pancakes.html","ingredients":"flour,
+        milk, ricotta cheese, eggs, butter, baking powder, sugar","thumbnail":""},{"title":"Finnish
+        Pancakes Or Pannukakku Recipe","href":"http:\/\/www.grouprecipes.com\/17057\/finnish-pancakes-or-pannukakku.html","ingredients":"flour,
+        butter, eggs, milk, salt, sugar, pancakes, vanilla extract","thumbnail":"http:\/\/img.recipepuppy.com\/397367.jpg"}]}'
+    http_version: 
+  recorded_at: Tue, 04 Sep 2018 20:55:28 GMT
+recorded_with: VCR 4.0.0

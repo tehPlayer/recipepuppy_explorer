@@ -6,7 +6,7 @@ module Recipepuppy
     MAX_PER_PAGE = 10.0
 
     def self.search(params)
-      new(params.symbolize_keys).execute_calls
+      new(params).execute_calls
     end
 
     def initialize(params)

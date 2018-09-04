@@ -1,0 +1,134 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.recipepuppy.com/api/?p=3&q=pancakes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Tue, 04 Sep 2018 20:55:29 GMT
+      server:
+      - Apache/2.2.9 (Ubuntu) PHP/5.2.6-2ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.9
+        OpenSSL/0.9.8g mod_wsgi/4.5.7 Python/2.6
+      x-powered-by:
+      - PHP/5.2.6-2ubuntu4.6
+      set-cookie:
+      - kohanasession=8e62fec195dc80a4a00dd781ef7be76d; expires=Tue, 04 Sep 2018 22:55:29
+        GMT; path=/, kohanasession=8e62fec195dc80a4a00dd781ef7be76d; expires=Tue,
+        04-Sep-2018 22:55:29 GMT; path=/, kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiI4ZTYyZmVjMTk1ZGM4MGE0YTAwZGQ3ODFlZjdiZTc2ZCI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6MTQ6IkZhcmFkYXkgdjAuOS4yIjtpcF9hZGRyZXNzfHM6MTI6IjE4OC4xMjEuMC4xMSI7bGFzdF9hY3Rpdml0eXxpOjE1MzYwOTQ1Mjk7;
+        expires=Tue, 04-Sep-2018 22:55:29 GMT; path=/
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      pragma:
+      - no-cache
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '706'
+      content-type:
+      - text/javascript
+    body:
+      encoding: ASCII-8BIT
+      string: '{"title":"Recipe Puppy","version":0.1,"href":"http:\/\/www.recipepuppy.com\/","results":[{"title":"English
+        Pancakes","href":"http:\/\/www.recipezaar.com\/English-Pancakes-172501","ingredients":"eggs,
+        flour, milk, vegetable oil, salt","thumbnail":""},{"title":"Fluffy Gingerbread
+        Pancakes","href":"http:\/\/www.recipezaar.com\/Fluffy-Gingerbread-Pancakes-146721","ingredients":"baking
+        powder, baking soda, coffee, butter, cinnamon, brown sugar, eggs, flour, lemon
+        juice, ginger, nutmeg, vegetable oil, salt, water","thumbnail":""},{"title":"Ger''s
+        Awesome Thin Buttermilk Pancakes","href":"http:\/\/www.recipezaar.com\/Gers-Awesome-Thin-Buttermilk-Pancakes-85504","ingredients":"baking
+        soda, butter, buttermilk, eggs, flour, salt","thumbnail":"http:\/\/img.recipepuppy.com\/652721.jpg"},{"title":"German
+        Buckwheat Pancakes","href":"http:\/\/www.recipezaar.com\/German-Buckwheat-Pancakes-323409","ingredients":"bacon,
+        flour, coffee, eggs, vegetable oil, salt, water","thumbnail":""},{"title":"Grandma
+        Schatz Apple Pancakes","href":"http:\/\/www.recipezaar.com\/Grandma-Schatz-Apple-Pancakes-212620","ingredients":"almond
+        extract, apple, butter, cinnamon, eggs, flour, milk, nutmeg, salt, vanilla
+        extract","thumbnail":"http:\/\/img.recipepuppy.com\/683256.jpg"},{"title":"Great
+        Pancakes","href":"http:\/\/www.recipezaar.com\/Great-Pancakes-189648","ingredients":"baking
+        powder, bisquick, vegetable oil, eggs, lemon juice, sugar, whole milk","thumbnail":""},{"title":"Country
+        Potato Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Country-Potato-Pancakes\/Detail.aspx","ingredients":"baking
+        powder, eggs, flour, onions, potato, salt, vegetable oil","thumbnail":"http:\/\/img.recipepuppy.com\/685.jpg"},{"title":"Thin
+        Egg Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Thin-Egg-Pancakes\/Detail.aspx","ingredients":"butter,
+        powdered sugar, eggs, flour, milk, salt","thumbnail":"http:\/\/img.recipepuppy.com\/2148.jpg"},{"title":"Brown
+        Sugar Oatmeal Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Brown-Sugar-Oatmeal-Pancakes\/Detail.aspx","ingredients":"baking
+        soda, brown sugar, buttermilk, eggs, flour, oats, salt, vegetable oil, flour","thumbnail":"http:\/\/img.recipepuppy.com\/7547.jpg"},{"title":"Sweet
+        Potato Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Sweet-Potato-Pancakes-2\/Detail.aspx","ingredients":"cinnamon,
+        molasses, egg whites, eggs, olive oil, yogurt, rolled oat, vanilla extract","thumbnail":""}]}'
+    http_version: 
+  recorded_at: Tue, 04 Sep 2018 20:55:29 GMT
+- request:
+    method: get
+    uri: http://www.recipepuppy.com/api/?p=4&q=pancakes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Tue, 04 Sep 2018 20:55:29 GMT
+      server:
+      - Apache/2.2.9 (Ubuntu) PHP/5.2.6-2ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.9
+        OpenSSL/0.9.8g mod_wsgi/4.5.7 Python/2.6
+      x-powered-by:
+      - PHP/5.2.6-2ubuntu4.6
+      set-cookie:
+      - kohanasession=33c31999eee6bfa6e52a9c3415c7386d; expires=Tue, 04 Sep 2018 22:55:29
+        GMT; path=/, kohanasession=33c31999eee6bfa6e52a9c3415c7386d; expires=Tue,
+        04-Sep-2018 22:55:29 GMT; path=/, kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiIzM2MzMTk5OWVlZTZiZmE2ZTUyYTljMzQxNWM3Mzg2ZCI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6MTQ6IkZhcmFkYXkgdjAuOS4yIjtpcF9hZGRyZXNzfHM6MTI6IjE4OC4xMjEuMC4xMSI7bGFzdF9hY3Rpdml0eXxpOjE1MzYwOTQ1Mjk7;
+        expires=Tue, 04-Sep-2018 22:55:29 GMT; path=/
+      expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      cache-control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      pragma:
+      - no-cache
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '650'
+      content-type:
+      - text/javascript
+    body:
+      encoding: ASCII-8BIT
+      string: '{"title":"Recipe Puppy","version":0.1,"href":"http:\/\/www.recipepuppy.com\/","results":[{"title":"Mom''s
+        Oatmeal Blueberry Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Moms-Oatmeal-Blueberry-Pancakes\/Detail.aspx","ingredients":"baking
+        powder, baking soda, blueberries, buttermilk, eggs, flour, rolled oat, salt,
+        sugar","thumbnail":""},{"title":"Pancakes II","href":"http:\/\/allrecipes.com\/Recipe\/Pancakes-II\/Detail.aspx","ingredients":"baking
+        powder, eggs, flour, milk, salt, sugar","thumbnail":"http:\/\/img.recipepuppy.com\/11919.jpg"},{"title":"Pancakes
+        on the Go","href":"http:\/\/allrecipes.com\/Recipe\/Pancakes-on-the-Go\/Detail.aspx","ingredients":"baking
+        soda, brown sugar, buttermilk, eggs, flour, oats, salt, vegetable oil, flour","thumbnail":"http:\/\/img.recipepuppy.com\/11926.jpg"},{"title":"Veronica''s
+        Apple Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Veronicas-Apple-Pancakes\/Detail.aspx","ingredients":"baking
+        powder, butter, cinnamon, eggs, flour, milk, apple, sugar","thumbnail":"http:\/\/img.recipepuppy.com\/11931.jpg"},{"title":"Ginger
+        Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Ginger-Pancakes\/Detail.aspx","ingredients":"biscuit
+        baking mix, butter, cinnamon, cloves, eggs, egg yolks, ginger, lemon juice,
+        syrup, milk, molasses, sugar, water","thumbnail":"http:\/\/img.recipepuppy.com\/16875.jpg"},{"title":"Grain
+        and Nut Whole Wheat Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Grain-and-Nut-Whole-Wheat-Pancakes\/Detail.aspx","ingredients":"baking
+        powder, baking soda, buttermilk, eggs, milk, oatmeal, salt, sugar, vegetable
+        oil, walnut, flour","thumbnail":"http:\/\/img.recipepuppy.com\/16876.jpg"},{"title":"Whole
+        Wheat Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Whole-Wheat-Pancakes\/Detail.aspx","ingredients":"baking
+        powder, baking soda, brown sugar, buttermilk, eggs, flour, salt, butter, butter,
+        flour, wheat germ","thumbnail":"http:\/\/img.recipepuppy.com\/16883.jpg"},{"title":"Bisquick&#174;
+        Buttermilk Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Bisquick-Buttermilk-Pancakes\/Detail.aspx","ingredients":"baking
+        soda, buttermilk, eggs, bisquick","thumbnail":"http:\/\/img.recipepuppy.com\/16885.jpg"},{"title":"Banana
+        Pancakes I","href":"http:\/\/allrecipes.com\/Recipe\/Banana-Pancakes-I\/Detail.aspx","ingredients":"baking
+        powder, banana, eggs, flour, milk, salt, vegetable oil, sugar","thumbnail":"http:\/\/img.recipepuppy.com\/16889.jpg"},{"title":"Swedish
+        Pancakes","href":"http:\/\/allrecipes.com\/Recipe\/Swedish-Pancakes\/Detail.aspx","ingredients":"egg
+        whites, eggs, flour, milk, salt, sour cream, vegetable oil, sugar","thumbnail":"http:\/\/img.recipepuppy.com\/16897.jpg"}]}'
+    http_version: 
+  recorded_at: Tue, 04 Sep 2018 20:55:29 GMT
+recorded_with: VCR 4.0.0
