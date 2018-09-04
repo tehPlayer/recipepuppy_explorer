@@ -1,0 +1,17 @@
+<main role="main" class="container">
+  <div class="col-md">
+    <form class="form-inline input-group" id="search-form" action="<%= main_search_path %>">
+      <input class="form-control" id="search-input" type="text" placeholder="Search for..." aria-label="Search">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+      </div>
+    </form>
+    <span class="loader">Loading...</span>
+
+    <div id="search-results" class="list-group mt-5 mb-5">
+    </div>
+
+    <button type="button" class="btn btn-outline-secondary float-right mr-3 mb-5" id="next-page">Next page</button>
+    <div class="loader float-right mr-2">Loading...</div>
+  </div>
+</main>
